@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43836CF11DA9706200574C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43836CF01DA9706200574C8D /* AppDelegate.swift */; };
+		43836CF31DA9706200574C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43836CF21DA9706200574C8D /* ViewController.swift */; };
+		43836CF61DA9706200574C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43836CF41DA9706200574C8D /* Main.storyboard */; };
+		43836CF81DA9706200574C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43836CF71DA9706200574C8D /* Assets.xcassets */; };
+		43836CFB1DA9706200574C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43836CF91DA9706200574C8D /* LaunchScreen.storyboard */; };
+		439767F11DAE26CF0077625A /* UIImageView+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439767F01DAE26CF0077625A /* UIImageView+Firebase.swift */; };
+		43A7FD5D1DA9959900F61198 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43A7FD5C1DA9959900F61198 /* GoogleService-Info.plist */; };
+		43A7FD671DA9B14800F61198 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A7FD661DA9B14800F61198 /* Constants.swift */; };
+		43A7FD691DA9B52600F61198 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A7FD681DA9B52600F61198 /* CustomButton.swift */; };
+		43A7FD6B1DA9B62800F61198 /* CustomView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A7FD6A1DA9B62800F61198 /* CustomView1.swift */; };
+		43A7FD6D1DA9BBCC00F61198 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A7FD6C1DA9BBCC00F61198 /* FBSDKLoginKit.framework */; };
+		43A7FD701DA9BF1D00F61198 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A7FD6F1DA9BF1D00F61198 /* FBSDKCoreKit.framework */; };
+		43CC531D1DAA119F00928A61 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC531C1DAA119F00928A61 /* FeedViewController.swift */; };
+		43CC531F1DAA31DE00928A61 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC531E1DAA31DE00928A61 /* CircleView.swift */; };
+		43CC53211DAA9DCC00928A61 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC53201DAA9DCC00928A61 /* PostCell.swift */; };
+		43CC53231DAAA86300928A61 /* CustomButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC53221DAAA86300928A61 /* CustomButton1.swift */; };
+		43CC53261DAC98B600928A61 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC53251DAC98B600928A61 /* DataService.swift */; };
+		43CC53281DACA21700928A61 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC53271DACA21700928A61 /* Post.swift */; };
+		43CC532A1DAD505800928A61 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC53291DAD505800928A61 /* SwiftyJSON.swift */; };
+		43CC532C1DAD83E800928A61 /* UIView+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC532B1DAD83E800928A61 /* UIView+Shake.swift */; };
+		77E098249D7D9423B3282835 /* Pods_Talk2Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11035BD6E14A656247F5C3C2 /* Pods_Talk2Me.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11035BD6E14A656247F5C3C2 /* Pods_Talk2Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Talk2Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43836CED1DA9706200574C8D /* Talk2Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talk2Me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43836CF01DA9706200574C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43836CF21DA9706200574C8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43836CF51DA9706200574C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43836CF71DA9706200574C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43836CFA1DA9706200574C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43836CFC1DA9706200574C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438C8DF61DA9CE9200A98724 /* Talk2Me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Talk2Me.entitlements; sourceTree = "<group>"; };
+		439767F01DAE26CF0077625A /* UIImageView+Firebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Firebase.swift"; sourceTree = "<group>"; };
+		43A7FD5C1DA9959900F61198 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43A7FD661DA9B14800F61198 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		43A7FD681DA9B52600F61198 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		43A7FD6A1DA9B62800F61198 /* CustomView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView1.swift; sourceTree = "<group>"; };
+		43A7FD6C1DA9BBCC00F61198 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		43A7FD6F1DA9BF1D00F61198 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		43CC531C1DAA119F00928A61 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		43CC531E1DAA31DE00928A61 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		43CC53201DAA9DCC00928A61 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		43CC53221DAAA86300928A61 /* CustomButton1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton1.swift; sourceTree = "<group>"; };
+		43CC53251DAC98B600928A61 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		43CC53271DACA21700928A61 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		43CC53291DAD505800928A61 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		43CC532B1DAD83E800928A61 /* UIView+Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shake.swift"; sourceTree = "<group>"; };
+		FBCBCA8CAF19C4EC41C5597C /* Pods-Talk2Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk2Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB675D4B7853C675CDB8666 /* Pods-Talk2Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk2Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43836CEA1DA9706200574C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A7FD6D1DA9BBCC00F61198 /* FBSDKLoginKit.framework in Frameworks */,
+				43A7FD701DA9BF1D00F61198 /* FBSDKCoreKit.framework in Frameworks */,
+				77E098249D7D9423B3282835 /* Pods_Talk2Me.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25CF8AD110E1C4098364ADFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A7FD6F1DA9BF1D00F61198 /* FBSDKCoreKit.framework */,
+				11035BD6E14A656247F5C3C2 /* Pods_Talk2Me.framework */,
+				43A7FD6C1DA9BBCC00F61198 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		374EFA3A318CED43D101398A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBCBCA8CAF19C4EC41C5597C /* Pods-Talk2Me.debug.xcconfig */,
+				FFB675D4B7853C675CDB8666 /* Pods-Talk2Me.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43836CE41DA9706200574C8D = {
+			isa = PBXGroup;
+			children = (
+				43836CEF1DA9706200574C8D /* Talk2Me */,
+				43836CEE1DA9706200574C8D /* Products */,
+				374EFA3A318CED43D101398A /* Pods */,
+				25CF8AD110E1C4098364ADFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43836CEE1DA9706200574C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43836CED1DA9706200574C8D /* Talk2Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43836CEF1DA9706200574C8D /* Talk2Me */ = {
+			isa = PBXGroup;
+			children = (
+				43CC53241DAC988300928A61 /* Services */,
+				438C8DF61DA9CE9200A98724 /* Talk2Me.entitlements */,
+				43A7FD651DA9B13200F61198 /* Util */,
+				43A7FD621DA9B06200F61198 /* Controller */,
+				43A7FD611DA9B05D00F61198 /* View */,
+				43A7FD601DA9B05700F61198 /* Model */,
+				43836CF01DA9706200574C8D /* AppDelegate.swift */,
+				43836CF41DA9706200574C8D /* Main.storyboard */,
+				43836CF71DA9706200574C8D /* Assets.xcassets */,
+				43836CF91DA9706200574C8D /* LaunchScreen.storyboard */,
+				43836CFC1DA9706200574C8D /* Info.plist */,
+				43A7FD5C1DA9959900F61198 /* GoogleService-Info.plist */,
+			);
+			path = Talk2Me;
+			sourceTree = "<group>";
+		};
+		43A7FD601DA9B05700F61198 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43CC53271DACA21700928A61 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		43A7FD611DA9B05D00F61198 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43A7FD681DA9B52600F61198 /* CustomButton.swift */,
+				43A7FD6A1DA9B62800F61198 /* CustomView1.swift */,
+				43CC531E1DAA31DE00928A61 /* CircleView.swift */,
+				43CC53201DAA9DCC00928A61 /* PostCell.swift */,
+				43CC53221DAAA86300928A61 /* CustomButton1.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		43A7FD621DA9B06200F61198 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43836CF21DA9706200574C8D /* ViewController.swift */,
+				43CC531C1DAA119F00928A61 /* FeedViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		43A7FD651DA9B13200F61198 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				43A7FD661DA9B14800F61198 /* Constants.swift */,
+				43CC53291DAD505800928A61 /* SwiftyJSON.swift */,
+				43CC532B1DAD83E800928A61 /* UIView+Shake.swift */,
+				439767F01DAE26CF0077625A /* UIImageView+Firebase.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		43CC53241DAC988300928A61 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				43CC53251DAC98B600928A61 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43836CEC1DA9706200574C8D /* Talk2Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43836CFF1DA9706200574C8D /* Build configuration list for PBXNativeTarget "Talk2Me" */;
+			buildPhases = (
+				33A630F58B6758F62B9C869A /* [CP] Check Pods Manifest.lock */,
+				43836CE91DA9706200574C8D /* Sources */,
+				43836CEA1DA9706200574C8D /* Frameworks */,
+				43836CEB1DA9706200574C8D /* Resources */,
+				1DE3984F0F769F30F491BCDA /* [CP] Embed Pods Frameworks */,
+				10CF2075299905FD4D734731 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Talk2Me;
+			productName = Talk2Me;
+			productReference = 43836CED1DA9706200574C8D /* Talk2Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43836CE51DA9706200574C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nicholas Blackburn";
+				TargetAttributes = {
+					43836CEC1DA9706200574C8D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MXX6H4NWH4;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 43836CE81DA9706200574C8D /* Build configuration list for PBXProject "Talk2Me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43836CE41DA9706200574C8D;
+			productRefGroup = 43836CEE1DA9706200574C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43836CEC1DA9706200574C8D /* Talk2Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43836CEB1DA9706200574C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43836CFB1DA9706200574C8D /* LaunchScreen.storyboard in Resources */,
+				43A7FD5D1DA9959900F61198 /* GoogleService-Info.plist in Resources */,
+				43836CF81DA9706200574C8D /* Assets.xcassets in Resources */,
+				43836CF61DA9706200574C8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10CF2075299905FD4D734731 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DE3984F0F769F30F491BCDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Talk2Me/Pods-Talk2Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33A630F58B6758F62B9C869A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43836CE91DA9706200574C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CC531F1DAA31DE00928A61 /* CircleView.swift in Sources */,
+				43CC532C1DAD83E800928A61 /* UIView+Shake.swift in Sources */,
+				43836CF31DA9706200574C8D /* ViewController.swift in Sources */,
+				43CC53281DACA21700928A61 /* Post.swift in Sources */,
+				43CC532A1DAD505800928A61 /* SwiftyJSON.swift in Sources */,
+				43836CF11DA9706200574C8D /* AppDelegate.swift in Sources */,
+				43A7FD671DA9B14800F61198 /* Constants.swift in Sources */,
+				43CC53261DAC98B600928A61 /* DataService.swift in Sources */,
+				43CC53211DAA9DCC00928A61 /* PostCell.swift in Sources */,
+				439767F11DAE26CF0077625A /* UIImageView+Firebase.swift in Sources */,
+				43A7FD691DA9B52600F61198 /* CustomButton.swift in Sources */,
+				43A7FD6B1DA9B62800F61198 /* CustomView1.swift in Sources */,
+				43CC53231DAAA86300928A61 /* CustomButton1.swift in Sources */,
+				43CC531D1DAA119F00928A61 /* FeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43836CF41DA9706200574C8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43836CF51DA9706200574C8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43836CF91DA9706200574C8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43836CFA1DA9706200574C8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43836CFD1DA9706200574C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43836CFE1DA9706200574C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43836D001DA9706200574C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCBCA8CAF19C4EC41C5597C /* Pods-Talk2Me.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Talk2Me/Talk2Me.entitlements;
+				DEVELOPMENT_TEAM = MXX6H4NWH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Talk2Me/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NicholasBlackburn.TheConnectionz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		43836D011DA9706200574C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB675D4B7853C675CDB8666 /* Pods-Talk2Me.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Talk2Me/Talk2Me.entitlements;
+				DEVELOPMENT_TEAM = MXX6H4NWH4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Talk2Me/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NicholasBlackburn.TheConnectionz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43836CE81DA9706200574C8D /* Build configuration list for PBXProject "Talk2Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43836CFD1DA9706200574C8D /* Debug */,
+				43836CFE1DA9706200574C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43836CFF1DA9706200574C8D /* Build configuration list for PBXNativeTarget "Talk2Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43836D001DA9706200574C8D /* Debug */,
+				43836D011DA9706200574C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43836CE51DA9706200574C8D /* Project object */;
+}
