@@ -1,5 +1,10 @@
-# Talk2Me
-Social Media iOS10 Swift app
+# iOS social media app - Talk2Me
+
+====================
+
+Social Media iOS10 Swift Application
+
+====================
 
 What does this app do?
 - Users utilize this iOS app by uploading photos with brief caption descriptions from his or her iphone onto a social media platform
@@ -7,6 +12,8 @@ What does this app do?
 - Safe, secure login via Facebook or Email & Password
 - Automatic login feature if you decide to not log out before leaving the application
 - Contact page to contact the developer
+
+====================
 
 Technologies used:
 - Swift Programming Language
@@ -21,4 +28,6 @@ Technologies used:
 - FBSDKLoginKit for Facebook Login Authentication
 - Images downloaded from Icons iOS9 at https://icons8.com/web-app/new-icons/ios7
 
-Developer: Nicholas Blackburn
+====================
+
+Programmed by Nicholas Blackburn in 2016
